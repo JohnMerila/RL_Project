@@ -1,3 +1,17 @@
+# TLDR
+
+This project trains a policy for a differential drive robot in IsaacLab that is tested via transfer learning on a physical robot
+
+
+
+
+
+
+
+
+
+
+
 # Differential-Drive LiDAR Navigation in Isaac Lab
 
 This project trains a local point-goal navigation policy for a differential-drive robot in Isaac Lab. Every episode
