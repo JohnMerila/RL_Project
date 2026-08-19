@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.venv/
+logs/
+outputs/
+*.usd
+*.usda
+
+# Isaac Sim/Isaac Lab generated state
+_isaac_sim/
+.nv/
+

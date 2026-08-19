@@ -1,0 +1,235 @@
+{
+  "main": {
+    "id": "a4d8fc57e009e492",
+    "type": "split",
+    "children": [
+      {
+        "id": "220ff6aaadea6bc4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6c728a702488125a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Physical Robot Deployment/02 Raspberry Pi and ROS 2 Setup.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "02 Raspberry Pi and ROS 2 Setup"
+            }
+          },
+          {
+            "id": "4a3e694841f52631",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Remote Connection to Pibot.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Remote Connection to Pibot"
+            }
+          },
+          {
+            "id": "d8d07068f44936a8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/RL Overview.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "RL Overview"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "42e79e4b93047f1c",
+    "type": "split",
+    "children": [
+      {
+        "id": "982ca360942d1d37",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c8d779bf2c62e7d9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "60aab47fdc7365e7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "ea4f5b5f89f6b08d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "504765f513dc04f1",
+    "type": "split",
+    "children": [
+      {
+        "id": "4d088dfeefceaaa6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f051eeed6d2b0d2f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Welcome.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Welcome"
+            }
+          },
+          {
+            "id": "5b637a3fa5982d0b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Welcome.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Welcome"
+            }
+          },
+          {
+            "id": "adeb30ea8e6e8077",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "9b7863683c2428cf",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "d3c2cd373d85085e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Welcome.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Welcome"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "d8d07068f44936a8",
+  "lastOpenFiles": [
+    "Notes/Remote Connection to Pibot.md",
+    "Notes/RL Overview.md",
+    "Physical Robot Deployment/03 ROS 2 Base, Odometry, and TF.md",
+    "Physical Robot Deployment/07 Calibration and Physical Validation.md",
+    "Physical Robot Deployment/06 Safety, Bringup, and Operations.md",
+    "Physical Robot Deployment/05 ONNX Policy Node.md",
+    "Physical Robot Deployment/04 LiDAR and the 79-Value Contract.md",
+    "Physical Robot Deployment/02 Raspberry Pi and ROS 2 Setup.md",
+    "Physical Robot Deployment/01 Hardware Architecture and Wiring.md",
+    "Physical Robot Deployment/08 Troubleshooting and Sim-to-Real Tuning.md",
+    "Physical Robot Deployment/Physical Robot Deployment - Start Here.md",
+    "Training a Differential-Drive LiDAR Navigation Policy in Isaac Lab.md",
+    "Notes",
+    "Welcome.md",
+    "Physical Robot Deployment"
+  ]
+}

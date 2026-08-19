@@ -1,0 +1,17 @@
+[package]
+version = "0.1.0"
+category = "isaaclab"
+title = "Differential Drive LiDAR Navigation"
+description = "RSL-RL training task for randomized point-goal navigation."
+authors = ["RL_Project"]
+repository = ""
+keywords = ["isaaclab", "reinforcement-learning", "navigation", "lidar"]
+
+[dependencies]
+"isaaclab" = {}
+"isaaclab_rl" = {}
+"isaaclab_tasks" = {}
+
+[[python.module]]
+name = "diffdrive_nav"
+

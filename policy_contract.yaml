@@ -1,0 +1,24 @@
+version: 1
+task: Isaac-DiffDrive-Lidar-Nav-Direct-v0
+control_rate_hz: 20
+observation:
+  dtype: float32
+  size: 79
+  terms:
+    - {name: lidar, start: 0, size: 72, units: normalized, scale: 8.0_m}
+    - {name: goal, start: 72, size: 3, layout: [distance_over_8m, sin_bearing, cos_bearing]}
+    - {name: base_velocity, start: 75, size: 2, layout: [forward_over_0.8mps, yaw_rate_over_1.5radps]}
+    - {name: previous_action, start: 77, size: 2, layout: [normalized_forward, normalized_yaw]}
+action:
+  dtype: float32
+  size: 2
+  normalized_range: [-1.0, 1.0]
+  mapping:
+    linear_mps: "0.4 * (action[0] + 1.0)"
+    angular_radps: "1.5 * action[1]"
+drive:
+  wheel_radius_m: 0.055
+  track_width_m: 0.335
+  left_radps: "(linear_mps - 0.5 * track_width_m * angular_radps) / wheel_radius_m"
+  right_radps: "(linear_mps + 0.5 * track_width_m * angular_radps) / wheel_radius_m"
+
