@@ -2,7 +2,29 @@
 
 This project trains a policy for a differential drive robot in IsaacLab that is tested via transfer learning on a physical robot
 
+# Actions
 
+A linear and angular velocity are applied to the robot in m/s and radians/s
+
+
+# Observations
+
+scan - 72 bins with the minimum distance in the 5° window clamped to the max_lidar_range
+
+goal - normalized and consisting of the following:
+dist = goal.clamp(max_lidar_range)/max_lidar_range
+sin(bearing)
+cos(bearing)
+
+velocity - linear and angular velocity normalized by the maximum speed and clamped between -2.0 and 2.0
+
+current action
+
+# Rewards
+
+The reward is comprised of the progress towards the goal, a reward when the goal is reached, a collision penalty, a penalty increasing as the distance to obstacles are reduced, a penalty for changing actions, a penalty for angular speed, and a reward for living.
+
+These rewards are summed to produce the supplied rward
 
 
 
