@@ -1,6 +1,6 @@
 # TLDR
 
-This project trains a policy for a differential drive robot in IsaacLab that is tested via transfer learning on a physical robot
+This project trains a policy for a differential drive robot in IsaacLab demo'd on a physical robot for a sim to real demonstration
 
 Demo video on sim
 https://youtu.be/qy_7rYX2ZnI
