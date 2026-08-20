@@ -28,7 +28,7 @@ These rewards are summed to produce the supplied rward
 
 
 
-
+## The following is a more detailed description and overview
 
 
 
