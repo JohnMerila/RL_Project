@@ -2,6 +2,9 @@
 
 This project trains a policy for a differential drive robot in IsaacLab that is tested via transfer learning on a physical robot
 
+Demo Video
+https://youtu.be/qy_7rYX2ZnI
+
 ## Actions
 
 A linear and angular velocity are applied to the robot in m/s and radians/s
